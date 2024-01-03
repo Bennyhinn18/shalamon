@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to place the order (you can customize this)
     function placeOrder(orderDetails) {
-        // Send order details to the server (replace the URL with your actual Netlify function endpoint)
-        fetch('/.netlify/functions/place-order', { // Update the endpoint URL
+        // Send order details to the server (replace the URL with your actual server endpoint)
+        fetch('/place-order', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
