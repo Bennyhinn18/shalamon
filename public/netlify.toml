@@ -1,0 +1,7 @@
+[build]
+   # Adjust this to your actual build command
+  functions = "netlify/functions"
+  publish = "public"  # Adjust this to your actual publish directory
+
+[build.environment]
+  NODE_VERSION = "20"  # Adjust this to your Node.js version
