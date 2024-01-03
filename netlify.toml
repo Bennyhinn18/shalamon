@@ -1,5 +1,5 @@
 [build]
-  command = "npm install && npm run build"  # Adjust this to your actual build command
+   # Adjust this to your actual build command
   functions = "netlify-functions"
   publish = "public"  # Adjust this to your actual publish directory
 
