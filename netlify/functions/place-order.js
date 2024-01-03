@@ -35,7 +35,7 @@ if (fs.existsSync(excelFilePath)) {
 }
 
 // Endpoint to handle the order placement
-app.post('/netlify/functions/place-order', (req, res) => {
+app.post('/netlify-functions/place-order', (req, res) => {
   const orderDetails = req.body;
 
   worksheet.addRow([
